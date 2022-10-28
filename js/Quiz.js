@@ -49,33 +49,18 @@ class Quiz {
         debugger;
         var correctAns = "2";
 
-        // if (correctAns !== allContestants[plr].answer){
-        //   fill("Green")
-        // }
-        // else{
-        //   fill("red");
-        // }
+      
 
-        // if (correctAns === allContestants[plr].answer){
-        //   fill("Green")
-        // }
-        // else{
-        //   fill("red");
-        // }
+        if (correctAns === allContestants[plr].answer){
+          fill("Green")
+        }
+        else{
+          fill("red");
+        }
 
-        // if (correctAns === allContestants[plr].answer){
-        //   fill("red")
-        // }
-        // else{
-        //   fill("green");
-        // }
+    
 
-        // if (correctAns = allContestants[plr].answer){
-        //   fill("Green")
-        // }
-        // else{
-        //   fill("red");
-        // }
+       
 
         display_Answers+=30;
         textSize(20);
